@@ -1,6 +1,6 @@
 let cells = [21];
 let dim = 21;
-let saveFile;
+let saveFile = null;
 let button;
 let markAsFormatBit = false;
 
