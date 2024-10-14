@@ -51,13 +51,13 @@ function mousePressed() {
     let x = floor(mouseX/cellSize);
     let y = floor(mouseY/cellSize);
 
-    if (cells[x][y].col == 255) {
-        cells[x][y].col = 0;
-    } else {
-        cells[x][y].col = 255;
-    }
+    if (!(mouseY > width)) {
+        if (cells[x][y].col == 255) {
+            cells[x][y].col = 0;
+        } else {
+            cells[x][y].col = 255;
+        }
 
-    if (!(mouseY > 0)) {
         if (markAsFormatBit) {
             cells[x][y].isFormatBit = true;
         }
