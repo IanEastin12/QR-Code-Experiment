@@ -37,9 +37,9 @@ function mouseDragged() {
     let x = floor(mouseX/cellSize);
     let y = floor(mouseY/cellSize);
 
-    cells[x][y].col = 0;
+    if (!(mouseY > width)) {
+        cells[x][y].col = 0;
 
-    if (!(mouseY > 0)) {
         if (markAsFormatBit) {
             cells[x][y].isFormatBit = true;
         }
