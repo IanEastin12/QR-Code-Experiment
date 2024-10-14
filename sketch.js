@@ -4,10 +4,10 @@ let saveFile;
 let button;
 let markAsFormatBit = false;
 
-function preload() {
+/* function preload() {
    //saveFile = loadJSON('https://amber-amelie-28.tiiny.site/qrcode.json');
    saveFile = loadJSON('qrcode.json');
-}
+} */
 
 function setup() {
     createCanvas(420, 420);
@@ -67,7 +67,7 @@ function mousePressed() {
 function draw() {
     background(0);
 
-    button.mousePressed(markFormatBits());
+    button.mousePressed(markFormatBits);
 
     for (let i = 0; i < dim; i++) {
         for (let j = 0; j < dim; j++) {
@@ -95,5 +95,6 @@ Cell.prototype.show = function () {
 
 function markFormatBits() {
     markAsFormatBit = true;
-    button.html("Mark as format bits: off");
+    button.html("Mark as format bits: on");
+    console.log("hi");
 }
