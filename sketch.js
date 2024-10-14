@@ -17,7 +17,7 @@ function setup() {
         cells[i] = [dim];
         for (let j = 0; j < dim; j++) {
 
-            if (saveFile == !null) {
+            if (saveFile != null) {
                 cells[i][j] = new Cell(saveFile[i][j].x, saveFile[i][j].y, saveFile[i][j].w);
                 cells[i][j].col = saveFile[i][j].col;
                 cells[i][j].isFormatBit = saveFile[i][j].isFormatBit;
