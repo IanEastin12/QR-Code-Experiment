@@ -2,22 +2,25 @@ let cells = [21];
 let dim = 21;
 let saveFile;
 let button;
+let saveButton;
 let markAsFormatBit = false;
 
-function preload() {
+/* function preload() {
    saveFile = loadJSON('Ver1.json');
-}
+} */
 
 function setup() {
     createCanvas(420, 420);
     background(0);
     button = createButton("Mark as format bits: off");
+    saveButton = createButton("Save progress");
+    saveFile = getItem("QR_Code")
 
     for (let i = 0; i < dim; i++) {
         cells[i] = [dim];
         for (let j = 0; j < dim; j++) {
 
-            if (saveFile != undefined) {
+            if (saveFile != null) {
                 cells[i][j] = new Cell(saveFile[i][j].x, saveFile[i][j].y, saveFile[i][j].w);
                 cells[i][j].col = saveFile[i][j].col;
                 cells[i][j].isFormatBit = saveFile[i][j].isFormatBit;
@@ -67,6 +70,7 @@ function draw() {
     background(0);
 
     button.mousePressed(markFormatBits);
+    saveButton.mousePressed(saveData);
 
     for (let i = 0; i < dim; i++) {
         for (let j = 0; j < dim; j++) {
@@ -96,4 +100,8 @@ function markFormatBits() {
     markAsFormatBit = true;
     button.html("Mark as format bits: on");
     console.log("hi");
+}
+
+function saveData() {
+    storeItem("QR_Code", cells);
 }
