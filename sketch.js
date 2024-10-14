@@ -4,10 +4,9 @@ let saveFile;
 let button;
 let markAsFormatBit = false;
 
-/* function preload() {
-   //saveFile = loadJSON('https://amber-amelie-28.tiiny.site/qrcode.json');
-   saveFile = loadJSON('qrcode.json');
-} */
+function preload() {
+   saveFile = loadJSON('Ver1.json');
+}
 
 function setup() {
     createCanvas(420, 420);
@@ -76,9 +75,9 @@ function draw() {
     }
 }
 
-function keyPressed() {
+/* function keyPressed() {
     saveJSON(cells, 'qrcode.json');
-}
+} */
 
 function Cell(x, y, w) {
     this.col = 255;
