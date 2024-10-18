@@ -1,20 +1,26 @@
 let cells = [21];
 let dim = 21;
 let saveFile;
+let defaultFile;
 let button;
 let saveButton;
+let clearButton;
+let dropDown;
 let markAsFormatBit = false;
 
-/* function preload() {
-   saveFile = loadJSON('Ver1.json');
-} */
+function preload() {
+   defaultFile = loadJSON('Ver1.json');
+}
 
 function setup() {
     createCanvas(420, 420);
     background(0);
     button = createButton("Mark as format bits: off");
     saveButton = createButton("Save progress");
-    saveFile = getItem("QR_Code")
+    clearButton = createButton("Clear");
+    saveFile = getItem("QR_Code");
+    dropDown = createSelect();
+    dropDown.option("Version 1", 1);
 
     for (let i = 0; i < dim; i++) {
         cells[i] = [dim];
@@ -25,7 +31,9 @@ function setup() {
                 cells[i][j].col = saveFile[i][j].col;
                 cells[i][j].isFormatBit = saveFile[i][j].isFormatBit;
             } else {
-                cells[i][j] = new Cell(i * width/dim, j * width/dim, width/dim);
+                cells[i][j] = new Cell(defaultFile[i][j].x, defaultFile[i][j].y, defaultFile[i][j].w);
+                cells[i][j].col = defaultFile[i][j].col;
+                cells[i][j].isFormatBit = defaultFile[i][j].isFormatBit;
             }
 
         }
@@ -71,6 +79,15 @@ function draw() {
 
     button.mousePressed(markFormatBits);
     saveButton.mousePressed(saveData);
+    clearButton.mousePressed(clearGrid);
+
+    switch (dropDown.selected()) {
+        case 1:
+            versionSelect(21, defaultFile);
+            break;
+        default:
+            versionSelect(21);
+    }
 
     for (let i = 0; i < dim; i++) {
         for (let j = 0; j < dim; j++) {
@@ -100,6 +117,29 @@ function markFormatBits() {
     markAsFormatBit = true;
     button.html("Mark as format bits: on");
     console.log("hi");
+}
+
+function clearGrid() {
+    for (let i = 0; i < dim; i++) {
+        for (let j = 0; j < dim; j++) {
+            if(!cells[i][j].isFormatBit)
+                cells[i][j].col = 255;
+        }
+    }
+    console.log("hi");
+}
+
+function versionSelect(dimension, version) {
+    dim = dimension;
+    for (let i = 0; i < dim; i++) {
+        cells[i] = [dim];
+        for (let j = 0; j < dim; j++) {
+
+            cells[i][j] = new Cell(version[i][j].x, version[i][j].y, version[i][j].w);
+            cells[i][j].col = version[i][j].col;
+            cells[i][j].isFormatBit = version[i][j].isFormatBit;
+        }
+    }
 }
 
 function saveData() {
