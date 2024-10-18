@@ -2,6 +2,7 @@ let cells = [21];
 let dim = 21;
 let saveFile;
 let defaultFile;
+let currentVersion;
 let button;
 let saveButton;
 let clearButton;
@@ -15,13 +16,14 @@ function preload() {
 function setup() {
     createCanvas(420, 420);
     background(0);
-    clearStorage();
+    //clearStorage();
     button = createButton("Mark as format bits: off");
     saveButton = createButton("Save progress");
     clearButton = createButton("Clear");
     saveFile = getItem("QR_Code");
     dropDown = createSelect();
     dropDown.option("Version 1");
+    currentVersion = 1;
 
     for (let i = 0; i < dim; i++) {
         cells[i] = [dim];
@@ -82,13 +84,10 @@ function draw() {
     saveButton.mousePressed(saveData);
     clearButton.mousePressed(clearGrid);
 
-    switch (dropDown.selected()) {
-        case "Version 1":
-            versionSelect(21, defaultFile);
-            break;
-        default:
-            versionSelect(21, defaultFile);
+    if(currentVersion != dropDown.selected()) {
+        versionSelect();
     }
+    currentVersion = dropDown.selected();
 
     for (let i = 0; i < dim; i++) {
         for (let j = 0; j < dim; j++) {
@@ -130,8 +129,20 @@ function clearGrid() {
     console.log("hi");
 }
 
-function versionSelect(dimension, version) {
-    dim = dimension;
+function versionSelect() {
+
+    let version;
+
+    switch (dropDown.selected()) {
+        case "Version 1":
+            dim = 21;
+            version = defaultFile;
+            break;
+        default:
+            dim = 21;
+            version = defaultFile;
+    }
+
     for (let i = 0; i < dim; i++) {
         cells[i] = [dim];
         for (let j = 0; j < dim; j++) {
