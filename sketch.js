@@ -20,7 +20,7 @@ function setup() {
     clearButton = createButton("Clear");
     saveFile = getItem("QR_Code");
     dropDown = createSelect();
-    dropDown.option("Version 1", 1);
+    dropDown.option("Version 1");
 
     for (let i = 0; i < dim; i++) {
         cells[i] = [dim];
@@ -82,11 +82,11 @@ function draw() {
     clearButton.mousePressed(clearGrid);
 
     switch (dropDown.selected()) {
-        case 1:
+        case "Version 1":
             versionSelect(21, defaultFile);
             break;
         default:
-            versionSelect(21);
+            versionSelect(21, defaultFile);
     }
 
     for (let i = 0; i < dim; i++) {
