@@ -15,6 +15,7 @@ function preload() {
 function setup() {
     createCanvas(420, 420);
     background(0);
+    clearStorage();
     button = createButton("Mark as format bits: off");
     saveButton = createButton("Save progress");
     clearButton = createButton("Clear");
