@@ -86,6 +86,7 @@ function draw() {
 
     if(currentVersion != dropDown.selected()) {
         versionSelect();
+        console.log("yuh");
     }
     currentVersion = dropDown.selected();
 
