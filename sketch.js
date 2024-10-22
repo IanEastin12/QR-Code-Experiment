@@ -33,7 +33,6 @@ function setup() {
                 cells[i][j] = new Cell(saveFile[i][j].x, saveFile[i][j].y, saveFile[i][j].w);
                 cells[i][j].col = saveFile[i][j].col;
                 cells[i][j].isFormatBit = saveFile[i][j].isFormatBit;
-                console.log("using save file");
             } else {
                 cells[i][j] = new Cell(defaultFile[i][j].x, defaultFile[i][j].y, defaultFile[i][j].w);
                 cells[i][j].col = defaultFile[i][j].col;
@@ -127,7 +126,9 @@ function clearGrid() {
                 cells[i][j].col = 255;
         }
     }
-    console.log("hi");
+
+    clearStorage();
+
 }
 
 function versionSelect() {
