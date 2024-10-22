@@ -1135,11 +1135,11 @@
       "isFormatBit": false
     },
     {
-      "col": 0,
+      "col": 255,
       "x": 140,
       "y": 260,
       "w": 20,
-      "isFormatBit": true
+      "isFormatBit": false
     },
     {
       "col": 255,
@@ -1284,11 +1284,11 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 160,
       "y": 260,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
