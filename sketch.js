@@ -23,7 +23,7 @@ function setup() {
     clearButton = createButton("Clear");
     dropDown = createSelect();
     dropDown.option("Version 1");
-    currentVersion = 1;
+    currentVersion = "Version 1";
 
     for (let i = 0; i < dim; i++) {
         cells[i] = [dim];
