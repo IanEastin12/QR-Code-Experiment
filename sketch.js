@@ -31,9 +31,8 @@ function setup() {
 
             if (saveFile != null) {
                 cells[i][j] = new Cell(saveFile[i][j].x, saveFile[i][j].y, saveFile[i][j].w);
-                cells[i][j].col = saveFile[i][j].col;
+                cells[i][j].col = 0;
                 cells[i][j].isFormatBit = saveFile[i][j].isFormatBit;
-                console.log("yuh");
             } else {
                 cells[i][j] = new Cell(defaultFile[i][j].x, defaultFile[i][j].y, defaultFile[i][j].w);
                 cells[i][j].col = defaultFile[i][j].col;
@@ -157,4 +156,5 @@ function versionSelect() {
 
 function saveData() {
     storeItem("QR_Code", cells);
+    console.log("file saved");
 }
