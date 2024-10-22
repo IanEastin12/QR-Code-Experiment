@@ -38,8 +38,8 @@ function setup() {
     dropDown.option("Version 4");
     currentVersion = "Version 1";
 
-    if (saveFile != null) dim = saveFile.length;
-    else dim = defaultFile.length;
+    if (saveFile != null) dim = saveFile[0].length;
+    else dim = defaultFile[0].length;
 
     for (let i = 0; i < dim; i++) {
         cells[i] = [dim];
