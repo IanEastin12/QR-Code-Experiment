@@ -33,6 +33,7 @@ function setup() {
                 cells[i][j] = new Cell(saveFile[i][j].x, saveFile[i][j].y, saveFile[i][j].w);
                 cells[i][j].col = saveFile[i][j].col;
                 cells[i][j].isFormatBit = saveFile[i][j].isFormatBit;
+                console.log("yuh");
             } else {
                 cells[i][j] = new Cell(defaultFile[i][j].x, defaultFile[i][j].y, defaultFile[i][j].w);
                 cells[i][j].col = defaultFile[i][j].col;
@@ -86,7 +87,6 @@ function draw() {
 
     if(currentVersion != dropDown.selected()) {
         versionSelect();
-        console.log("yuh");
     }
     currentVersion = dropDown.selected();
 
