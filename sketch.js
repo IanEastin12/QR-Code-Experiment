@@ -11,6 +11,7 @@ let markAsFormatBit = false;
 
 function preload() {
    defaultFile = loadJSON('Ver1.json');
+   saveFile = getItem("QR_Code");
 }
 
 function setup() {
@@ -20,7 +21,6 @@ function setup() {
     button = createButton("Mark as format bits: off");
     saveButton = createButton("Save progress");
     clearButton = createButton("Clear");
-    saveFile = getItem("QR_Code");
     dropDown = createSelect();
     dropDown.option("Version 1");
     currentVersion = 1;
