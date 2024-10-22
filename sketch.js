@@ -1,7 +1,6 @@
 let cells = [];
 let dim;
 let saveFile;
-let defaultFile;
 let version1;
 let version2;
 let version3;
@@ -15,7 +14,6 @@ let dropDown;
 let markAsFormatBit = false;
 
 function preload() {
-   defaultFile = loadJSON('Ver1.json');
    version1 = loadJSON('Ver1.json');
    version2 = loadJSON('Ver2.json');
    version3 = loadJSON('Ver3.json');
@@ -39,7 +37,7 @@ function setup() {
     currentVersion = "Version 1";
 
     if (saveFile != null) dim = saveFile[0].length;
-    else dim = defaultFile[0].length;
+    else dim = version1[0].length;
 
     for (let i = 0; i < dim; i++) {
         cells[i] = [dim];
@@ -50,9 +48,9 @@ function setup() {
                 cells[i][j].col = saveFile[i][j].col;
                 cells[i][j].isFormatBit = saveFile[i][j].isFormatBit;
             } else {
-                cells[i][j] = new Cell(defaultFile[i][j].x, defaultFile[i][j].y, defaultFile[i][j].w);
-                cells[i][j].col = defaultFile[i][j].col;
-                cells[i][j].isFormatBit = defaultFile[i][j].isFormatBit;
+                cells[i][j] = new Cell(version1[i][j].x, version1[i][j].y, version1[i][j].w);
+                cells[i][j].col = version1[i][j].col;
+                cells[i][j].isFormatBit = version1[i][j].isFormatBit;
             }
 
         }
@@ -155,7 +153,6 @@ function clearGrid() {
 function versionSelect() {
 
     let version;
-    console.log("version select triggered")
 
     switch (dropDown.selected()) {
         case "Version 1":
@@ -176,7 +173,7 @@ function versionSelect() {
             break;
         default:
             dim = 21;
-            version = defaultFile;
+            version = version1;
     }
 
     for (let i = 0; i < dim; i++) {
