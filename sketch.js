@@ -127,7 +127,7 @@ function clearGrid() {
         }
     }
 
-    clearStorage();
+    removeItem("QR_Code");
 
 }
 
