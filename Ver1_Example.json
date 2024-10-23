@@ -71,22 +71,22 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 0,
       "y": 200,
-      "w": 20,
-      "isFormatBit": false
-    },
-    {
-      "col": 255,
-      "x": 0,
-      "y": 220,
       "w": 20,
       "isFormatBit": false
     },
     {
       "col": 255,
       "x": 0,
+      "y": 220,
+      "w": 20,
+      "isFormatBit": false
+    },
+    {
+      "col": 0,
+      "x": 0,
       "y": 240,
       "w": 20,
       "isFormatBit": false
@@ -220,21 +220,21 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 20,
       "y": 200,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 20,
       "y": 220,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 20,
       "y": 240,
       "w": 20,
@@ -244,54 +244,54 @@
       "col": 255,
       "x": 20,
       "y": 260,
-      "w": 20,
-      "isFormatBit": true
-    },
-    {
-      "col": 0,
-      "x": 20,
-      "y": 280,
-      "w": 20,
-      "isFormatBit": true
-    },
-    {
-      "col": 255,
-      "x": 20,
-      "y": 300,
-      "w": 20,
-      "isFormatBit": true
-    },
-    {
-      "col": 255,
-      "x": 20,
-      "y": 320,
-      "w": 20,
-      "isFormatBit": true
-    },
-    {
-      "col": 255,
-      "x": 20,
-      "y": 340,
-      "w": 20,
-      "isFormatBit": true
-    },
-    {
-      "col": 255,
-      "x": 20,
-      "y": 360,
-      "w": 20,
-      "isFormatBit": true
-    },
-    {
-      "col": 255,
-      "x": 20,
-      "y": 380,
       "w": 20,
       "isFormatBit": true
     },
     {
       "col": 0,
       "x": 20,
+      "y": 280,
+      "w": 20,
+      "isFormatBit": true
+    },
+    {
+      "col": 255,
+      "x": 20,
+      "y": 300,
+      "w": 20,
+      "isFormatBit": true
+    },
+    {
+      "col": 255,
+      "x": 20,
+      "y": 320,
+      "w": 20,
+      "isFormatBit": true
+    },
+    {
+      "col": 255,
+      "x": 20,
+      "y": 340,
+      "w": 20,
+      "isFormatBit": true
+    },
+    {
+      "col": 255,
+      "x": 20,
+      "y": 360,
+      "w": 20,
+      "isFormatBit": true
+    },
+    {
+      "col": 255,
+      "x": 20,
+      "y": 380,
+      "w": 20,
+      "isFormatBit": true
+    },
+    {
+      "col": 0,
+      "x": 20,
       "y": 400,
       "w": 20,
       "isFormatBit": true
@@ -355,7 +355,7 @@
       "isFormatBit": true
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 40,
       "y": 160,
       "w": 20,
@@ -376,14 +376,14 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 40,
       "y": 220,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 40,
       "y": 240,
       "w": 20,
@@ -511,36 +511,36 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 60,
       "y": 180,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 60,
       "y": 200,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 60,
       "y": 220,
-      "w": 20,
-      "isFormatBit": false
-    },
-    {
-      "col": 255,
-      "x": 60,
-      "y": 240,
       "w": 20,
       "isFormatBit": false
     },
     {
       "col": 255,
       "x": 60,
+      "y": 240,
+      "w": 20,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 60,
       "y": 260,
       "w": 20,
       "isFormatBit": true
@@ -660,29 +660,29 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 80,
       "y": 180,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 80,
       "y": 200,
-      "w": 20,
-      "isFormatBit": false
-    },
-    {
-      "col": 255,
-      "x": 80,
-      "y": 220,
       "w": 20,
       "isFormatBit": false
     },
     {
       "col": 255,
       "x": 80,
+      "y": 220,
+      "w": 20,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 80,
       "y": 240,
       "w": 20,
       "isFormatBit": false
@@ -802,29 +802,29 @@
       "isFormatBit": true
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 100,
       "y": 160,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 100,
       "y": 180,
-      "w": 20,
-      "isFormatBit": false
-    },
-    {
-      "col": 255,
-      "x": 100,
-      "y": 200,
       "w": 20,
       "isFormatBit": false
     },
     {
       "col": 255,
       "x": 100,
+      "y": 200,
+      "w": 20,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 100,
       "y": 220,
       "w": 20,
       "isFormatBit": false
@@ -1100,21 +1100,21 @@
       "isFormatBit": true
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 140,
       "y": 160,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 140,
       "y": 180,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 140,
       "y": 200,
       "w": 20,
@@ -1128,7 +1128,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 140,
       "y": 240,
       "w": 20,
@@ -1200,35 +1200,35 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 160,
       "y": 20,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 160,
       "y": 40,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 160,
       "y": 60,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 160,
       "y": 80,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 160,
       "y": 100,
       "w": 20,
@@ -1249,14 +1249,14 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 160,
       "y": 160,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 160,
       "y": 180,
       "w": 20,
@@ -1270,7 +1270,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 160,
       "y": 220,
       "w": 20,
@@ -1291,14 +1291,14 @@
       "isFormatBit": true
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 160,
       "y": 280,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 160,
       "y": 300,
       "w": 20,
@@ -1319,7 +1319,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 160,
       "y": 360,
       "w": 20,
@@ -1398,14 +1398,14 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 180,
       "y": 160,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 180,
       "y": 180,
       "w": 20,
@@ -1433,21 +1433,21 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 180,
       "y": 260,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 180,
       "y": 280,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 180,
       "y": 300,
       "w": 20,
@@ -1468,14 +1468,14 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 180,
       "y": 360,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 180,
       "y": 380,
       "w": 20,
@@ -1491,7 +1491,7 @@
   ],
   [
     {
-      "col": 255,
+      "col": 0,
       "x": 200,
       "y": 0,
       "w": 20,
@@ -1519,14 +1519,14 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 200,
       "y": 80,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 200,
       "y": 100,
       "w": 20,
@@ -1547,21 +1547,21 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 200,
       "y": 160,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 200,
       "y": 180,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 200,
       "y": 200,
       "w": 20,
@@ -1575,7 +1575,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 200,
       "y": 240,
       "w": 20,
@@ -1589,7 +1589,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 200,
       "y": 280,
       "w": 20,
@@ -1603,7 +1603,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 200,
       "y": 320,
       "w": 20,
@@ -1624,14 +1624,14 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 200,
       "y": 380,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 200,
       "y": 400,
       "w": 20,
@@ -1640,7 +1640,7 @@
   ],
   [
     {
-      "col": 255,
+      "col": 0,
       "x": 220,
       "y": 0,
       "w": 20,
@@ -1668,7 +1668,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 220,
       "y": 80,
       "w": 20,
@@ -1696,14 +1696,14 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 220,
       "y": 160,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 220,
       "y": 180,
       "w": 20,
@@ -1717,14 +1717,14 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 220,
       "y": 220,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 220,
       "y": 240,
       "w": 20,
@@ -1738,7 +1738,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 220,
       "y": 280,
       "w": 20,
@@ -1759,7 +1759,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 220,
       "y": 340,
       "w": 20,
@@ -1780,7 +1780,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 220,
       "y": 400,
       "w": 20,
@@ -1796,28 +1796,28 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 240,
       "y": 20,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 240,
       "y": 40,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 240,
       "y": 60,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 240,
       "y": 80,
       "w": 20,
@@ -1852,14 +1852,14 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 240,
       "y": 180,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 240,
       "y": 200,
       "w": 20,
@@ -1873,28 +1873,28 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 240,
       "y": 240,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 240,
       "y": 260,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 240,
       "y": 280,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 240,
       "y": 300,
       "w": 20,
@@ -1908,7 +1908,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 240,
       "y": 340,
       "w": 20,
@@ -1922,7 +1922,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 240,
       "y": 380,
       "w": 20,
@@ -1994,7 +1994,7 @@
       "isFormatBit": true
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 260,
       "y": 160,
       "w": 20,
@@ -2015,28 +2015,28 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 260,
       "y": 220,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 260,
       "y": 240,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 260,
       "y": 260,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 260,
       "y": 280,
       "w": 20,
@@ -2050,21 +2050,21 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 260,
       "y": 320,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 260,
       "y": 340,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 260,
       "y": 360,
       "w": 20,
@@ -2150,14 +2150,14 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 280,
       "y": 180,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 280,
       "y": 200,
       "w": 20,
@@ -2192,7 +2192,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 280,
       "y": 300,
       "w": 20,
@@ -2206,28 +2206,28 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 280,
       "y": 340,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 280,
       "y": 360,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 280,
       "y": 380,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 280,
       "y": 400,
       "w": 20,
@@ -2292,7 +2292,7 @@
       "isFormatBit": true
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 300,
       "y": 160,
       "w": 20,
@@ -2327,28 +2327,28 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 300,
       "y": 260,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 300,
       "y": 280,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 300,
       "y": 300,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 300,
       "y": 320,
       "w": 20,
@@ -2441,7 +2441,7 @@
       "isFormatBit": true
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 320,
       "y": 160,
       "w": 20,
@@ -2462,7 +2462,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 320,
       "y": 220,
       "w": 20,
@@ -2483,7 +2483,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 320,
       "y": 280,
       "w": 20,
@@ -2497,7 +2497,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 320,
       "y": 320,
       "w": 20,
@@ -2518,7 +2518,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 320,
       "y": 380,
       "w": 20,
@@ -2590,14 +2590,14 @@
       "isFormatBit": true
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 340,
       "y": 160,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 340,
       "y": 180,
       "w": 20,
@@ -2611,7 +2611,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 340,
       "y": 220,
       "w": 20,
@@ -2632,7 +2632,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 340,
       "y": 280,
       "w": 20,
@@ -2674,7 +2674,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 340,
       "y": 400,
       "w": 20,
@@ -2739,7 +2739,7 @@
       "isFormatBit": true
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 360,
       "y": 160,
       "w": 20,
@@ -2753,7 +2753,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 360,
       "y": 200,
       "w": 20,
@@ -2809,7 +2809,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 360,
       "y": 360,
       "w": 20,
@@ -2823,7 +2823,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 360,
       "y": 400,
       "w": 20,
@@ -2888,7 +2888,7 @@
       "isFormatBit": true
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 380,
       "y": 160,
       "w": 20,
@@ -2923,7 +2923,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 380,
       "y": 260,
       "w": 20,
@@ -2958,7 +2958,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 380,
       "y": 360,
       "w": 20,
@@ -3044,28 +3044,28 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 400,
       "y": 180,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 400,
       "y": 200,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 400,
       "y": 220,
       "w": 20,
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 400,
       "y": 240,
       "w": 20,
@@ -3079,7 +3079,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 400,
       "y": 280,
       "w": 20,
@@ -3093,7 +3093,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 400,
       "y": 320,
       "w": 20,
@@ -3107,7 +3107,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 400,
       "y": 360,
       "w": 20,
@@ -3121,7 +3121,7 @@
       "isFormatBit": false
     },
     {
-      "col": 255,
+      "col": 0,
       "x": 400,
       "y": 400,
       "w": 20,
