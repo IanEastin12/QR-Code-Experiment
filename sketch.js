@@ -193,7 +193,7 @@ function versionSelect() {
 function applyMask() {
     for (let i = 0; i < dim; i++) {
         for (let j = 0; j < dim; j++) {
-            if ((floor((i + 1)/2) + floor((j + 1)/3)) % 2 == 0 && !cells[i][j].isFormatBit) {
+            if ((floor((i + 1)/3) + floor((j + 1)/2)) % 2 == 0 && !cells[i][j].isFormatBit) {
                 if (cells[i][j].col == 0) cells[i][j].col = 255;
                 else cells[i][j].col = 0;
             }
