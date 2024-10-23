@@ -10,6 +10,7 @@ let button;
 let saveButton;
 let clearButton;
 let downloadButton;
+let maskButton;
 let dropDown;
 let markAsFormatBit = false;
 
@@ -29,6 +30,7 @@ function setup() {
     saveButton = createButton("Save progress");
     downloadButton = createButton("Download code");
     clearButton = createButton("Clear");
+    maskButton = createButton("Apply mask");
     dropDown = createSelect();
     dropDown.option("Version 1");
     dropDown.option("Version 2");
@@ -98,6 +100,7 @@ function draw() {
     saveButton.mousePressed(saveData);
     downloadButton.mousePressed(downloadCode);
     clearButton.mousePressed(clearGrid);
+    maskButton.mousePressed(applyMask);
 
     if(currentVersion != dropDown.selected()) {
         versionSelect();
@@ -183,6 +186,17 @@ function versionSelect() {
             cells[i][j] = new Cell(version[i][j].x, version[i][j].y, version[i][j].w);
             cells[i][j].col = version[i][j].col;
             cells[i][j].isFormatBit = version[i][j].isFormatBit;
+        }
+    }
+}
+
+function applyMask() {
+    for (let i = 0; i < dim; i++) {
+        for (let j = 0; j < dim; j++) {
+            if ((i/2 + j/3) % 2 == 0) {
+                if (cells[i][j].col == 0) cells[i][j].col = 255;
+                else cells[i][j].col = 0;
+            }
         }
     }
 }
