@@ -96,14 +96,14 @@ function mousePressed() {
 function draw() {
     background(0);
 
-    button.mousePressed(markFormatBits);
-    saveButton.mousePressed(saveData);
-    downloadButton.mousePressed(downloadCode);
-    clearButton.mousePressed(clearGrid);
-    maskButton.mousePressed(applyMask);
+    button.mousePressed(UI.markFormatBits);
+    saveButton.mousePressed(UI.saveData);
+    downloadButton.mousePressed(UI.downloadCode);
+    clearButton.mousePressed(UI.clearGrid);
+    maskButton.mousePressed(UI.applyMask);
 
     if(currentVersion != dropDown.selected()) {
-        versionSelect();
+        UI.versionSelect();
     }
     currentVersion = dropDown.selected();
 
@@ -112,96 +112,4 @@ function draw() {
         cells[i][j].show();
         }
     }
-}
-
-function downloadCode() {
-    saveJSON(cells, 'qrcode.json');
-}
-
-function Cell(x, y, w) {
-    this.col = 255;
-    this.x = x;
-    this.y = y;
-    this.w = w;
-    this.isFormatBit = false;
-}
-
-Cell.prototype.show = function () {
-    fill(this.col);
-    square(this.x, this.y, this.w);
-}
-
-function markFormatBits() {
-    if (markAsFormatBit) {
-        markAsFormatBit = false;
-        button.html("Mark as format bits: off");
-    } else {
-        markAsFormatBit = true;
-        button.html("Mark as format bits: on");
-    }
-}
-
-function clearGrid() {
-    for (let i = 0; i < dim; i++) {
-        for (let j = 0; j < dim; j++) {
-            if(!cells[i][j].isFormatBit)
-                cells[i][j].col = 255;
-        }
-    }
-
-    removeItem("QR_Code");
-
-}
-
-function versionSelect() {
-
-    let version;
-
-    switch (dropDown.selected()) {
-        case "Version 1":
-            dim = 21;
-            version = version1;
-            break;
-        case "Version 2":
-            dim = 25;
-            version = version2;
-            break;
-        case "Version 3":
-            dim = 29;
-            version = version3;
-            break;
-        case "Version 4":
-            dim = 33;
-            version = version4;
-            break;
-        default:
-            dim = 21;
-            version = version1;
-    }
-
-    for (let i = 0; i < dim; i++) {
-        cells[i] = [dim];
-        for (let j = 0; j < dim; j++) {
-
-            cells[i][j] = new Cell(version[i][j].x, version[i][j].y, version[i][j].w);
-            cells[i][j].col = version[i][j].col;
-            cells[i][j].isFormatBit = version[i][j].isFormatBit;
-        }
-    }
-}
-
-function applyMask() {
-    for (let i = 0; i < dim; i++) {
-        for (let j = 0; j < dim; j++) {
-            if (j % 2 == 0 && !cells[i][j].isFormatBit) {
-                if (cells[i][j].col == 0) cells[i][j].col = 255;
-                else cells[i][j].col = 0;
-            }
-        }
-    }
-}
-
-function saveData() {
-    storeItem("QR_Code", cells);
-    console.log("file saved");
 }
