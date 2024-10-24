@@ -61,7 +61,7 @@
       "x": 0,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
@@ -210,25 +210,25 @@
       "x": 20,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 20,
       "y": 180,
-      "w": 20,
-      "isFormatBit": false
-    },
-    {
-      "col": 255,
-      "x": 20,
-      "y": 200,
       "w": 20,
       "isFormatBit": false
     },
     {
       "col": 255,
       "x": 20,
+      "y": 200,
+      "w": 20,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 20,
       "y": 220,
       "w": 20,
       "isFormatBit": false
@@ -359,25 +359,25 @@
       "x": 40,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 40,
       "y": 180,
-      "w": 20,
-      "isFormatBit": false
-    },
-    {
-      "col": 255,
-      "x": 40,
-      "y": 200,
       "w": 20,
       "isFormatBit": false
     },
     {
       "col": 255,
       "x": 40,
+      "y": 200,
+      "w": 20,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 40,
       "y": 220,
       "w": 20,
       "isFormatBit": false
@@ -508,25 +508,25 @@
       "x": 60,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 60,
       "y": 180,
-      "w": 20,
-      "isFormatBit": false
-    },
-    {
-      "col": 255,
-      "x": 60,
-      "y": 200,
       "w": 20,
       "isFormatBit": false
     },
     {
       "col": 255,
       "x": 60,
+      "y": 200,
+      "w": 20,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 60,
       "y": 220,
       "w": 20,
       "isFormatBit": false
@@ -657,25 +657,25 @@
       "x": 80,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 80,
       "y": 180,
-      "w": 20,
-      "isFormatBit": false
-    },
-    {
-      "col": 255,
-      "x": 80,
-      "y": 200,
       "w": 20,
       "isFormatBit": false
     },
     {
       "col": 255,
       "x": 80,
+      "y": 200,
+      "w": 20,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 80,
       "y": 220,
       "w": 20,
       "isFormatBit": false
@@ -806,25 +806,25 @@
       "x": 100,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 100,
       "y": 180,
-      "w": 20,
-      "isFormatBit": false
-    },
-    {
-      "col": 255,
-      "x": 100,
-      "y": 200,
       "w": 20,
       "isFormatBit": false
     },
     {
       "col": 255,
       "x": 100,
+      "y": 200,
+      "w": 20,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 100,
       "y": 220,
       "w": 20,
       "isFormatBit": false
@@ -1104,25 +1104,25 @@
       "x": 140,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 140,
       "y": 180,
-      "w": 20,
-      "isFormatBit": false
-    },
-    {
-      "col": 255,
-      "x": 140,
-      "y": 200,
       "w": 20,
       "isFormatBit": false
     },
     {
       "col": 255,
       "x": 140,
+      "y": 200,
+      "w": 20,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 140,
       "y": 220,
       "w": 20,
       "isFormatBit": false
@@ -1197,42 +1197,42 @@
       "x": 160,
       "y": 0,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 160,
       "y": 20,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 160,
       "y": 40,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 160,
       "y": 60,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 160,
       "y": 80,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 160,
       "y": 100,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 0,
@@ -1246,14 +1246,14 @@
       "x": 160,
       "y": 140,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 160,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
@@ -1295,49 +1295,49 @@
       "x": 160,
       "y": 280,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 160,
       "y": 300,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 160,
       "y": 320,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 160,
       "y": 340,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 160,
       "y": 360,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 160,
       "y": 380,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
       "x": 160,
       "y": 400,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     }
   ],
   [
@@ -1998,7 +1998,7 @@
       "x": 260,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
@@ -2147,7 +2147,7 @@
       "x": 280,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
@@ -2296,7 +2296,7 @@
       "x": 300,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
@@ -2445,7 +2445,7 @@
       "x": 320,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
@@ -2594,7 +2594,7 @@
       "x": 340,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
@@ -2743,7 +2743,7 @@
       "x": 360,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
@@ -2892,7 +2892,7 @@
       "x": 380,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
@@ -3041,7 +3041,7 @@
       "x": 400,
       "y": 160,
       "w": 20,
-      "isFormatBit": false
+      "isFormatBit": true
     },
     {
       "col": 255,
@@ -3125,6 +3125,714 @@
       "x": 400,
       "y": 400,
       "w": 20,
+      "isFormatBit": false
+    }
+  ],
+  [
+    {
+      "col": 0,
+      "x": 352.8,
+      "y": 0,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 16.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 0,
+      "x": 352.8,
+      "y": 33.6,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 0,
+      "x": 352.8,
+      "y": 50.4,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 0,
+      "x": 352.8,
+      "y": 67.2,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 84,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 0,
+      "x": 352.8,
+      "y": 100.8,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 117.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 134.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 151.2,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 168,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 184.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 201.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 218.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 235.2,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 252,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 268.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 285.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 302.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 319.2,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 336,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 352.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 369.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 386.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 352.8,
+      "y": 403.2,
+      "w": 16.8,
+      "isFormatBit": false
+    }
+  ],
+  [
+    {
+      "col": 0,
+      "x": 369.6,
+      "y": 0,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 16.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 0,
+      "x": 369.6,
+      "y": 33.6,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 0,
+      "x": 369.6,
+      "y": 50.4,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 0,
+      "x": 369.6,
+      "y": 67.2,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 84,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 0,
+      "x": 369.6,
+      "y": 100.8,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 117.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 134.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 151.2,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 168,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 184.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 201.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 218.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 235.2,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 252,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 268.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 285.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 302.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 319.2,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 336,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 352.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 369.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 386.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 369.6,
+      "y": 403.2,
+      "w": 16.8,
+      "isFormatBit": false
+    }
+  ],
+  [
+    {
+      "col": 0,
+      "x": 386.4,
+      "y": 0,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 16.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 33.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 50.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 67.2,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 84,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 0,
+      "x": 386.4,
+      "y": 100.8,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 117.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 134.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 151.2,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 168,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 184.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 201.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 218.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 235.2,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 252,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 268.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 285.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 302.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 319.2,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 336,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 352.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 369.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 386.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 386.4,
+      "y": 403.2,
+      "w": 16.8,
+      "isFormatBit": false
+    }
+  ],
+  [
+    {
+      "col": 0,
+      "x": 403.2,
+      "y": 0,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 0,
+      "x": 403.2,
+      "y": 16.8,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 0,
+      "x": 403.2,
+      "y": 33.6,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 0,
+      "x": 403.2,
+      "y": 50.4,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 0,
+      "x": 403.2,
+      "y": 67.2,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 0,
+      "x": 403.2,
+      "y": 84,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 0,
+      "x": 403.2,
+      "y": 100.8,
+      "w": 16.8,
+      "isFormatBit": true
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 117.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 134.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 151.2,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 168,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 184.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 201.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 218.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 235.2,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 252,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 268.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 285.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 302.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 319.2,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 336,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 352.8,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 369.6,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 386.4,
+      "w": 16.8,
+      "isFormatBit": false
+    },
+    {
+      "col": 255,
+      "x": 403.2,
+      "y": 403.2,
+      "w": 16.8,
       "isFormatBit": false
     }
   ]
