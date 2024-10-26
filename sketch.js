@@ -11,6 +11,7 @@ let saveButton;
 let clearButton;
 let downloadButton;
 let maskButton;
+let maskSelect;
 let dropDown;
 let markAsFormatBit = false;
 
@@ -26,17 +27,7 @@ function setup() {
     createCanvas(420, 420);
     background(0);
     
-    button = createButton("Mark as format bits: off");
-    saveButton = createButton("Save progress");
-    downloadButton = createButton("Download code");
-    clearButton = createButton("Clear");
-    maskButton = createButton("Apply mask");
-    dropDown = createSelect();
-    dropDown.option("Version 1");
-    dropDown.option("Version 2");
-    dropDown.option("Version 3");
-    dropDown.option("Version 4");
-    currentVersion = "Version 1";
+    initialize();
 
     if (saveFile != null) dim = saveFile[0].length;
     else dim = version1[0].length;
@@ -112,4 +103,28 @@ function draw() {
         cells[i][j].show();
         }
     }
+}
+
+function initialize() {
+    button = createButton("Mark as format bits: off");
+    saveButton = createButton("Save progress");
+    downloadButton = createButton("Download code");
+    clearButton = createButton("Clear");
+    maskButton = createButton("Apply mask");
+    maskSelect = createSelect();
+    maskSelect.option("0", 0);
+    maskSelect.option("1", 1);
+    maskSelect.option("2", 2);
+    maskSelect.option("3", 3);
+    maskSelect.option("4", 4);
+    maskSelect.option("5", 5);
+    maskSelect.option("6", 6);
+    maskSelect.option("7", 7);
+    dropDown = createSelect();
+    dropDown.option("Version 1");
+    dropDown.option("Version 2");
+    dropDown.option("Version 3");
+    dropDown.option("Version 4");
+    currentVersion = "Version 1";
+
 }

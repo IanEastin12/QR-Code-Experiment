@@ -66,9 +66,41 @@ class UI {
     }
     
     static applyMask() {
+
+        let mask;
+
+        switch (maskSelect.selected()) {
+            case 0:
+                mask = (i, j) => (j + i) % 2;
+                break;
+            case 1:
+                mask = (i, j) => (floor(j/2) + floor(i/3)) % 2;
+                break;
+            case 2:
+                mask = (i, j) => i % 3;
+                break;
+            case 3:
+                mask = (i, j) => (((j * i) % 2) + ((j * i) % 3)) % 2;
+                break;
+            case 4:
+                mask = (i, j) => j % 2;
+                break;
+            case 5:
+                mask = (i, j) => ((j * i) % 2) + ((j * i) % 3);
+                break;
+            case 6:
+                mask = (i, j) => (j + i) % 3;
+                break;
+            case 7:
+                mask = (i, j) => (((j + i) % 2) + ((j * i) % 3)) % 2;
+                break;
+            default:
+               mask = (i, j) => 1;
+        }
+
         for (let i = 0; i < dim; i++) {
             for (let j = 0; j < dim; j++) {
-                if (j % 2 == 0 && !cells[i][j].isFormatBit) {
+                if (mask(i, j) == 0 && !cells[i][j].isFormatBit) {
                     if (cells[i][j].col == 0) cells[i][j].col = 255;
                     else cells[i][j].col = 0;
                 }
