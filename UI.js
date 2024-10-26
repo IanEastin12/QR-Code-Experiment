@@ -71,13 +71,13 @@ class UI {
 
         switch (maskSelect.selected()) {
             case '0':
-                mask = (i, j) => (j + i) % 2;
+                mask = (i, j) => ((j * i) % 2) + ((j * i) % 3)
                 break;
             case '1':
                 mask = (i, j) => (floor(j/2) + floor(i/3)) % 2;
                 break;
             case '2':
-                mask = (i, j) => i % 3;
+                mask = (i, j) => (((j + i) % 2) + ((j * i) % 3)) % 2;
                 break;
             case '3':
                 mask = (i, j) => (((j * i) % 2) + ((j * i) % 3)) % 2;
@@ -86,13 +86,13 @@ class UI {
                 mask = (i, j) => j % 2;
                 break;
             case '5':
-                mask = (i, j) => ((j * i) % 2) + ((j * i) % 3);
+                mask = (i, j) => (j + i) % 2;
                 break;
             case '6':
                 mask = (i, j) => (j + i) % 3;
                 break;
             case '7':
-                mask = (i, j) => (((j + i) % 2) + ((j * i) % 3)) % 2;
+                mask = (i, j) => i % 3;
                 break;
             default:
                mask = (i, j) => 1;
